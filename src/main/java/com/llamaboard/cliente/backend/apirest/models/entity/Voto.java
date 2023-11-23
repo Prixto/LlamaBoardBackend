@@ -21,7 +21,7 @@ public class Voto implements Serializable {
 
     @ManyToOne
     @JoinColumn(name = "cancion_id")
-    private Cancion canción;
+    private Cancion cancion;
 
     @Column(nullable = false)
     private int voto;
